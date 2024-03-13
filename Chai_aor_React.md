@@ -496,3 +496,31 @@ _I build a program but that program not worked_
 
 ## Lecture # 14
 # Context api with local storage with project.
+In this lecture i learn a lot but this is a difficult concept for me. Because i Done it a lot on copy paste bass. But I make this project in Lecture 14 code. And i list some todo's in the project. Plz go indeepth in this project make some other todo's and master the concept of Todos app. 
+
+
+## Lecture # 15
+# Redux Toolkit crash course
+In this lecture we will see basics of Redux-toolkit.
+
+## Steps for making Redux project or SetUp:
+- Always start from building store, a app have only one store. single source of truth.
+- Create feather of redux toolkit. Which we called the Slice
+- We need three thing for creating Slice. First name, second the initialState and reducers 
+- InitialState hold the Starting position of any action.
+- reducers hold the funcalities and methods which we create in the App.jsx in the Context api we will create that methods in the reducers section.
+- After that i build components of this todo app. And here is two main concepts comes that, how to send value and how to recieve value. For this purpose we have two methods, useDispatch & useSelector 
+
+
+## What is nanoid in Redux toolkit?
+This is a method which is used to generate a unique key value, Always.
+
+
+## Redux VS Redux-react?
+Redux is a core library and Redux-react is bright to connect with react
+
+## In this Lecture there are four words to learn
+- Store
+- Reducer
+- useSelector
+- useDispatch
