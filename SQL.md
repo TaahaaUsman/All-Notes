@@ -1,136 +1,195 @@
-        # What is database? 
+<h1 style='color: red; text-align: center; font-size: 45px'>What is database</h1> 
 Database ak asi jaga ha jahn par data within a format save kiya howa hota ha
-        # What is database management system?
+<h2 style='color: Pink; font-size: 30px'>What is database management system?</h2>
 Asa software or set of softwares wo ka database ka ander delete, update & insert operations perform karna ka liya use hota ha
 
-# Types of databases
+<h2 style='color: aquamarine'>Types of databases</h2>
+
 Databases ki two types hoti hain:
-Relational database:
-Relational database ka ander data tables ki form ma store hota ha
+
+**Relational database**
+<br>
+Relational database ka ander data tables 
+ki form ma store hota ha
 SQL, Oracle, SQL Server, PostgreSQL
-Non Relation database:
-Non relation database ka ander data tables ki form ma store nahi hota 
-MongoDB
 
-# What is SQL?
+**Non Relation database**
+<br>
+Non relation database ka ander data tables ki form ma store nahi hota, MongoDB
+
+<h2 style='color: aquamarine'>What is SQL</h2>
 SQL stand for structured query language, and this language is used to intract with relational database. 
+<br>
 There are four major CRUD operations in SQL:
-Create
-Read
-Update
-Delete
 
-# Installation of SQL?
+- Create
+- Read
+- Update
+- Delete
+
+<h2 style='color: aquamarine'>Installation of SQL?</h2>
 Sab sa pala sql ki website par jana ha
-# https://dev.mysql.com/downloads/
+
+[Dev_mySQL](https://dev.mysql.com/downloads/ 'dev.mySQL')
 is link par jana ha
 mySql of installer for windows par click karna ha ya download ho jaya ga
 Baki installation simple ha, bass ak password set karna ha nahi to next aor execute par hi click karta jana ha
 
-# Creating over first program of SQL
+<h2 style='color: aquamarine'>Creating our first program of SQL</H2>
 
-# 1- creating a database:
+<h2 style='color: aqua'>Creating a Database</h2>
+
+```
 CREATE DATABASE db_name;
 or
 create database db_name;
-        SQL is not case sensitive we can write commands in capital words or smaller letter words
-2- Drop a database: means delete a database
+
+<-- SQL is not case sensitive we can write commands in capital words or smaller letter words>
+```
+<h2 style='color: aquamarine'>Drop a database</h2> 
+Means delete a database
+
+```
 DROP DATABASE db_name;
+```
 
-# yad raha ka ak bar database ban jana ka bad ham ager sara program execute karin ga to already bana howa database phir bana ga jis sa error a sakta ha, jo link bhi hama execute karni ha ham osa select kar ka siraf osa execute kar sakta hain
+> yad raha ka ak bar database ban jana ka bad ham ager sara program execute karin ga to already bana howa database phir bana ga jis sa error a sakta ha, jo link bhi hama execute karni ha ham osa select kar ka siraf osa execute kar sakta hain
 
-# 3- USE command:
+<h2 style='color: aquamarine'>USE command</h2>
+
+```
 USE db_name
-Ham use command os wakt use karta hain jab hama kisi database ka ander kam karna hota ha
+```
+_Ham use command os wakt use karta hain jab hama kisi database ka ander kam karna hota ha_
 
-# 4- CREATE TABLE command:
-code:
+<h2 style='color: aquamarine'>CREATE TABLE command</h2>
+
+```
 create table student(
     id INT primary key,
     name varchar(50),
     age int not NULL
 );
+```
+_Is ka ander ak table create kiya gaya ha aor os ka kuch attributes set kiya gaya hain_
 
-Is ka ander ak table create kiya gaya ha aor os ka kuch attributes set kiya gaya hain
+<h2 style='color: aquamarine'>Insert data into table</h2>
 
-# 5- insert data into table:
-code:
+```
 insert into student values(1,"Taahaa Usman",21);
+```
 
-# 6- print all table command:
-code:
+<h2 style='color: aquamarine'>Print all table command</h2>
+
+```
 select * from student;
+```
 
-# 7- Dabase Data Types:
-mana ak screeen short is name sa isi folder ma save kiya ha os ka ander basic database save ki gai hain
-Signed dataTypes:
+<h2 style='color: aquamarine'>Database Data Types</h2>
+![Data Types]()
+
+- Signed dataTypes:<br>
 asi datatypes jin ka ander numeric data store kiya jata ha, ager os ka ander hama koi asi value store karwani ha jis ka sath - or + ka sign hota ha to ham signed keyword use kar sakta hain
-Unsigned dataType:
+- Unsigned dataType:<br>
 Is ka ander koi sign nahi hota datatype ka sath, ager ager koi signed datatype ka sath ham Unsigned lik data hain to os ki range zayada ho jati ha, jasa ka TINYINT
 
-# 8- Types of SQL Commands:
-DDL: Data Defination language,
-create, alter , rename, truncate & drop
-DQL: Data query language,
-select
-DML: Data manipulation language,
-insert , update , delete
-DCL: Data control language,
-grant and revoke permission to users
-TCL: Transaction control Language,
-start transaction, commit , rollback etc
+<h2 style='color: aquamarine'>Types of SQL Commands</h2>
 
-# 9- Database related queries:
-IF NOT EXISTS & IF EXISTS:
-code:
+- DDL: Data Defination language,
+```
+create, alter , rename, truncate & drop
+```
+- DQL: Data query language
+```
+select
+```
+- DML: Data manipulation language
+```
+insert , update , delete
+```
+- DCL: Data control language
+```
+grant and revoke permission to users
+```
+- TCL: Transaction control Language
+```
+start transaction, commit , rollback etc
+```
+
+<h2 style='color: aquamarine'>Database related queries</h2>
+ IF NOT EXISTS & IF EXISTS:
+
+```
 CREATE DATABASE IF NOT EXISTS collage;
 DROP DATABASE IF EXISTS school;
-Ya commands achi practice ka liya use ki jati hain.
+```
+> Ya commands achi practice ka liya use ki jati hain.
+
+```
 SHOW DATABASES:
 SHOW TABLES:
-In dono commands ki madat sa ham database yan tables dak sakta hian.
+```
+> In dono commands ki madat sa ham database yan tables dak sakta hian.
 Show tables: command ka liya zarori ha ka ham kisi database ko use kar raha hon
 
-# 10- Table related queries:
-code:
+<h2 style='color: aquamarine'>Table related queries</h2>
+
+```
 create table student(
     id INT primary key,
     name varchar(50),
     age int not NULL
 );
+```
 Selecting an table:
-code:
+
+```
 select * from student;
-* means all in student
-        Ham jab bhi table ka ander data insert karta hain to zarori nahi ka ham na jis tartib ka ander banaya tha os ka ander hi data inter karna ha, ham 
-        kud define bhi kar sakta hain ka kis tara ham data inter karin ga
-code:
+```
+> means all in student, Ham jab bhi table ka ander data insert karta hain to zarori nahi ka ham na jis tartib ka ander banaya tha os ka ander hi data inter karna ha, ham kud define bhi kar sakta hain ka kis tara ham data inter karin ga
+
+```
 insert into students 
 (name, age, fathername, id, courseName) 
 values ('Hazi masood', 42, 'Ali asgar', 5, 'Database Engineer');
-# Hama har bar insert likna ki zarorat nahi ager hama kafi rows ka data save karna ha to ham ak insert li kar brackets laga kar bhi data lik sakta hain.
-code:
+```
+> Hama har bar insert likna ki zarorat nahi ager hama kafi rows ka data save karna ha to ham ak insert li kar brackets laga kar bhi data lik sakta hain.
+
+```
 insert into students values
 (1, 'Taahaa Usman', 21, 'Muhammad Anwar', 'Software Engineering'),
 (2, 'Saad Ranjha', 21, 'Muhammad Anwar', 'MSC Chemistry'),
 (3, 'Haider Ali', 21, 'Abu bakar Gondal', 'Matric'),
 (4, 'Subhan', 21, 'Usmana', 'Software Engineering');
+```
 
-                                # KEYS
+<h1 style='color: red; text-align: center; font-size: 45px'>KEYS</h1>
 
-Primary key:
+<h2 style='color: aquamarine'>Primary key</h2>
 This is an column or set of columns that uniquely identifies each row in a table. The primary key of a table must be unique and not Null. There is only 1 primary key in an table.
+<br>
 Foreign key:
+<br>
 A foreign key is an column or set of colums that refers to primary key of another table to link the tables. There is multiple FK in an table. FKs can have multiple duplicate & null values.
 
-# Constraints
+<h2 style='color: aquamarine'>Constraints</h2>
 SQL constraints are used to specify rules for data in a table
-NOT NULL:  ager ya constraint ham ksis column ka sath use karta hain to ham osa phir NULL nahi rak sakta matlab empty nahi rak sakta 
-UNIQUE:  Is constraint ka use sa ham apna column ka ander duplication nahi kar sakta
+<br>
+NOT NULL:
+<br>
+ager ya constraint ham ksis column ka sath use karta hain to ham osa phir NULL nahi rak sakta matlab empty nahi rak sakta 
+
+UNIQUE:
+<br>
+Is constraint ka use sa ham apna column ka ander duplication nahi kar sakta
 PRIMARY KEY: Ager ham kisi column ko primary key banata hain to os ma NOT NULL and UNIQUE dono rules follow hon ga,
+<br>
 Syntax for making primary key:
 There are two types of primary keys
-code 1:
+<br>
+
+**code 1:**
+```
 create table students(
     id int primary key,
     name varchar(50),
@@ -138,7 +197,9 @@ create table students(
     fathername varchar(50),
     courseName varchar(50)
 );
-code 2:
+```
+**code 2:**
+```
 create table students(
     id int,
     name varchar(50),
@@ -147,127 +208,190 @@ create table students(
     courseName varchar(50),
     primary key (id, name)
 );
-# is oper wali code 2 ka ander two columns ka combination primary key banaya ga ha
+```
+_is oper wali code 2 ka ander two columns ka combination primary key banaya ga ha_
 
-# Foreign key constraints:
-code:
+<h2 style='color: aquamarine'>Foreign key constraints</h2>
+
+**code:**
+```
 create table teachers(
 	teacher_id int,
     salary int default 30000,
     name varchar(50),
     foreign key (teacher_id) references students (id)
 );
-Default:
+```
+
+**Default**
 is constraint ki madat sa ham kuch values by default set kar sakta hain
 Check constraint:
 is constraint ki madat sa ham apna attribute par condition laga sakta hain
 code:
+```
  age int check (age >= 18) or
  age int check (age >= 18 and age <= 30)
+ ```
 
-#  Lecture_Sample_Database exercise
+<h2 style='color: aquamarine'>Lecture_Sample_Database exercise</h2>
 
-# Select in detail:
+<h2 style='color: aquamarine'>Select in detail</h2>
 select ham use karta hain table ka ander data ko select kar ka search karna ka liya aor view karna ka liya
+
+```
 select * from table_name:
-is used to select all columns in table.
+```
+> is used to select all columns in table.
 code:
+
+```
 select * from students;
 select city, name from students;
 select distinct grade from students;
-distinct: ka matlab hota ha ka jo values repeat ho rahi hain on ko ak bar show karwaya jaya.
-        # Where clause
+```
+>distinct: ka matlab hota ha ka jo values repeat ho rahi hain on ko ak bar show karwaya jaya.
+<h1 style='color: red; text-align: center; font-size: 45px'>Where clause</h1>
+
+```
 select * from students where name = "Usman";
 select * from students where grade = "C" and name = "Usman";
-  is ka ander ham condition set karta hain ka hama is type ka data chya
+```
+_is ka ander ham condition set karta hain ka hama is type ka data chya_
 
-# Operator in SQL
+<h2 style='color: aquamarine'>Operator in SQL</h2>
 mana ak picture ka screenshot is folder ma banaya ha 'Operators in SQL' ka ander sara operators lika howa hain
+<br>
 Between operator:
+<br>
 ager hama limit set karni ha ka kisi khas value ka ander data chya to between use karta hain
 code:
+
+```
 select * from students where Roll_no between 103 and 110;
+```
 In operator:
+<br>
 In operator ka ander ham ak list data hain aor ager data os list ka data sa math kara to sara row print kar di jati ha
 code:
+
+```
 select * from students where Roll_no in (112, 115,117);
+```
 Not operator:
+<br>
 not in operator check karta ha ka jo value isa di jati ha condition ka ander di jati ha ager value wo database ka ander mili to wo data print nahi ho ga baki sara data print ho jaya ga
 code:
+
+```
 select * from students where Roll_no not in (112, 115,117);
+```
 limit operator:
+<br>
 ham limit set kar sakta hain ka siraf itna rows of data hi chya
 code:
-select * from students where Roll_no = 101 limit 3;
-order by operator:
-kabi kabi hama data kisi khas order ma chya hota ha for example kabi hama high id sa low id ki taraf jana ha to os ka liya ya operator use hota ha
-ASC: Assending order
-DESC: Dessending order
-code:
-select * from students order by Roll_no desc;
 
-# Aggregation functions:
+```
+select * from students where Roll_no = 101 limit 3;
+```
+order by operator:
+<br>
+kabi kabi hama data kisi khas order ma chya hota ha for example kabi hama high id sa low id ki taraf jana ha to os ka liya ya operator use hota ha
+<br>
+ASC: Assending order
+<br>
+DESC: Dessending order
+<br>
+code:
+
+```
+select * from students order by Roll_no desc;
+```
+
+<h2 style='color: aquamarine'>Aggregation functions</h2>
 
 Aggregartion functions perform a calculation on multiple values, and return a single value. There are multiple ways to use aggregation functions but simple way is we use aggregation function with select.
+
+```
 count() function:
 max() function:
 sum() function:
 min() function:
 avg() function:
+```
 
-# Group by Clause:
+<h2 style='color: aquamarine'>Group by Clause</h2>
 
 Groups rows that have the same values into summary rows.
 It collect data from multiple records and groups the result by one or more column.
 Code:
-select courseName, count(id) from students group by courseName;
 
-# Having Clause:
+```
+select courseName, count(id) from students group by courseName;
+```
+
+<h2 style='color: aquamarine'>Having Clause</h2>
 
 Having clause bhi same ha where clause ki tara bass difference ki samj nahi ai lakin ma abi isa chor kar aga bar raha hon revision ma dakain ga isa
 Code:
+
+```
 select marks, count(Roll_no) from students
 group by marks
 having max(marks) > 85;
+```
 
-# General order of all Clauses
+<h2 style='color: aquamarine'>General order of all Clauses</h2>
 
+
+```
 select columns // hama kon sa colums select karna hain
 from table_name // kis table sa select karna hain
 where condition // On columns par kuch condition lagana ka liya
 group by columns // Hama kis columns ka group banana ha
 having condition // wo group ka ander koi condition matlab wo kon si conditions ko mind ma rak kar chlain ga
 order by columns ASC; // hama kon sa columns ki bass par order ma lana ha data ko
+```
 
 
-                        # Table Related Queries
-# How to off safe mode
+<h1 style='color: red; text-align: center; font-size: 45px'>Table Related Queries</h1>
+
+<h2 style='color: aquamarine'>How to off safe mode</h2>
+
+```
 set sql_safe_updates = 0; 
-if we again change 0 to 1 so safe mode is on again
+```
+> if we again change 0 to 1 so safe mode is on again
 
-# Update:
+<h2 style='color: aquamarine'>Update</h2>
 
+```
 update students set grade = "A" where grade = "C";
+```
 
 hama table ka name likana ha set ka ander wo data ho ga jo hama set karna ha aor where ka ander wo data ho ga jisa hama change karna ha
 
-# DELETE:
+<h2 style='color: aquamarine'>DELETE</h2>
 
 delete from tableName where condition;
 
 is line ki madat sa ham table ka ander kisi bhi  row ko delete kar sakta hain
 
+```
 delete from tablename;
+```
 
 likna sa simple sara table bhi delete ho sakta ha.
 
-# Revisiting Foriegn key:
+<h2 style='color: aquamarine'>Revisiting Foriegn key</h2>
 
+
+```
 create table department(
 	course_id int primary key,
     name varchar(50)
 );
-
+```
+```
 create table teachers (
 	teacher_id int primary key,
     name varchar(50),
@@ -275,23 +399,26 @@ create table teachers (
     departmental_id int,
     foreign key (departmental_id) references department(course_id) 
 );
+```
 
-is tara sa ham Foriegn key bana saka hain abi is ka ander ham na itna hi para ha.
+>is tara sa ham Foriegn key bana saka hain abi is ka ander ham na itna hi para ha.
 
-# How to view ER Diagram in sql benchmark
+<h2 style='color: aquamarine'>How to view ER Diagram in sql benchmark</h2>
 
 setps: 
-1- go to database
-2- select reverse Engineer
-3- Simple next next everything
+1. go to database
+2. select reverse Engineer
+3. Simple next next everything
 
-# cascading in foreign key
+<h2 style='color: aquamarine'>Cascading in foreign key</h2>
 
 Cascadeing ka simple matlab hota ha ka ak jaga par change hona sa dosri jaga par bhi change ho jaya
 is ka liya two operations hota hain:
-1- on delete Cascade 
-2- on update Cascade
+1. on delete Cascade 
+2. on update Cascade
 code :
+
+```
 create table teachers (
 	teacher_id int primary key,
     name varchar(50),
@@ -301,32 +428,33 @@ create table teachers (
     ON UPDATE CASCADE
     ON DELETE CASCADE
 );
- ager hama update reflect karni ha to ham ak operation laga sakta hain ager delete karna ha to wo operation
+```
+> ager hama update reflect karni ha to ham ak operation laga sakta hain ager delete karna ha to wo operation
 
-#  Alter: table related queries
+<h2 style='color: aqua'>Alter: table related queries</h2>
 
 is lecture ma ham 5 queries parain ga table ka related:
-1- ADD column:
+1. ADD column:
 Alter table student
 ADD column age int default 21;
-# Is command sa ham new column add kar sakta hain
-2- Modify column:
+<h2 style='color: aqua'>Is command sa ham new column add kar sakta hain</h2>
+2. Modify column:
 Alter table student
 modify column age varchar(3);
-# is command sa ham colum ka name aor constraints ko modify kar sakta hain
-3- Change column:
+<h2 style='color: aqua'>is command sa ham colum ka name aor constraints ko modify kar sakta hain</h2>
+3. Change column:
 Alter table student
 change age students_age int;
-# is command sa ham column ka name change aor datatype change kar sakta hain, rename
-4- DROP column:
+<h2 style='color: aqua'>is command sa ham column ka name change aor datatype change kar sakta hain, rename</h2>
+4. DROP column:
 Alter table students
 DROP column students_age;
-# is command ki madat sa ham column delete kar satka hain kisi table ka ander
-5- Rename column:
+<hr style='color: aqua'>is command ki madat sa ham column delete kar satka hain kisi table ka ander</h2>
+5. Rename column:
 Alter table students
 rename student;
-# is command sa ham kisi bhi table ko rename kar sakta hain
-6- TRUNCATE TABLE:
+<h2 style='color: aqua'>is command sa ham kisi bhi table ko rename kar sakta hain</h2>
+6. TRUNCATE TABLE:
 TRUNCATE TABLE student;
 truncate aor drop ma ya farak ha ka drop table ko delete kar data ha lakin truncate table ka ander data ko delete karta ha
 
@@ -344,7 +472,9 @@ There are four types of joins: (ven diagram)
     2nd table teacher
     set inner join in course_id and teaching info
     # code 
+    ```
     select * from teachers inner join courses on teachers.teaching_course = courses.course_id;
+    ```
     folder ka ander prac_innerjoin ki detail liki hoi ha
     as:
     

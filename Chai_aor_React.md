@@ -961,6 +961,23 @@ function Select({
 export default React.forwardRef(Select)
 
 ```
+Also in this lecture i build `Login` component of bolg application, i just copy it from github and paste it in my project.Also i learn about `useFrom()`, but i can'not understand it. I will learn it again.I also build `Signup` component. Simply copy paste.
 
+
+<h1 style='color: red; text-align: center; font-size: 40px'>Deployment</h1>
+
+In this lecture i learn how to deploy applications on Vercel.
+<br>
+we have to simply go to the website
+>https://vercel.com/taahaa-usmans-projects
+
+
+<br>
+In this website my profile means dashboard is showing:
+
+- click on Add new
+- My github is already connnected so select folder and deploy it. If Envorinmental variables are used then save them and delploy it. 
+
+![vercel Dashboard picture](./Screenshot.png)
 
 
