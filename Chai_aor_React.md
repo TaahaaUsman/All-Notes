@@ -358,7 +358,8 @@ _In this lecture, I build a small project which is backgound changer, This was a
 ## Lecture # 10
 
 <h1 style='color: red; font-size: 40px; text-align: center;'>useEffect, useRef and useCallback with project</h1>
-_In this lecture we will learn about above hooks and also we build a random password generator which have the feather of_
+_In this lecture we will learn about above hooks and also we build a random password generator which have the feather of:
+
 1. Generator a random password
 2. We can increase the lenght of password
 3. We have a checkpoint for adding numbers in passoword
@@ -428,8 +429,10 @@ export {InputBox, App};
 ## Lecture # 12
 
 <h1 style='color: red; font-size: 40px; text-align: center;'>React Router crash course</h1>
-In this lecuture we almost master the react router(means different data on different urls_) 
+In this lecuture we almost master the react router(means different data on different urls.<br>
+
 **We wil learn:**
+
 1. We are making a beautifull single page application
 2. How to handle github api
 3. How to chache the data from url
@@ -980,4 +983,21 @@ In this website my profile means dashboard is showing:
 
 ![vercel Dashboard picture](./Screenshot.png)
 
+
+
+<h1 style='color: red; text-align: center; font-size: 40px'>State Management</h1>
+
+I choose Redux tookit for managing state in React.
+
+### Lecture # 1
+
+In this lecture i am going to build a E-commerce website.Which have basic operations like: 
+
+- List of items
+- Add to cart option
+- Delete from cart option
+- Increase quantity option
+- Teacher using Bootstrap for components but i am using dev.io/componenets
+
+Let's Begain.
 

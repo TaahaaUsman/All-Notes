@@ -726,3 +726,40 @@ let int = document.querySelector("h1");
 int.textContent = "<h1>Heading</h1>";
 ```
 
+<h2 style='color: aquamarine;'>Concepts which i learn in VU Lectures</h2>
+
+## An easy way to add an element at the end of array?
+```
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.length = 'lemon';
+// This will add at the end of array, because length method always be one extra
+
+```
+
+## The problem is that the JavaScript operator typeof returns "object"
+
+```
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+typeof fruits; // typeof returns object
+```
+The typeof operator returns object because a JavaScript array is an object.
+
+## Data Types in js
+
+In JavaScript there are 5 different data types that can contain values:
+- String
+- Number
+- Boolean
+- Object
+- Function
+
+There are 3 types of objects:
+- Object
+- Date
+- Array
+
+And 2 data types that cannot contain values:
+- null
+- undefined
+
