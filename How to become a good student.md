@@ -200,3 +200,20 @@ We mostly think in our native And whenever we have to write or speak English. So
 
 **In summary:**<br>
 Almost al people facing this problem who want to learn a new language. People does not be able to communicate on same language. They do struggle between language learning and thinking barrier. The fastest solution is that just practice making sentences in mind. Practice start from basic level and then gradually increase the difficulty level. Make sentences what you are seeing(mean surroundings). Second, be prepare for upcoming situations. And think for common sentences. Third, Revise your daily activity in English.
+
+<h1 style='text-align: center; color: red; font-size: 30px'>Simple Trick to speak English fluently: Tips to learn 1000 words in 30 days: Akash</h1>
+
+Hirarchy of English learners
+
+```
+Beginner -> Intermediate -> Advance -> Fluent
+```
+Most of the people acheive Intermediate level very easily but after that they stuck. There is simple trick just improve sentences and add new words in mental dictionary.
+
+**Trick:**<br>
+Make daily video and select 5 words which I commonly speak and find alternatives of that words and remember them. Next time use these word on previous word replacement.
+
+```
+5 * 5 = 25 daily words
+25 * 30 = 1150 New words in month
+```
