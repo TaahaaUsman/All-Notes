@@ -217,3 +217,11 @@ Make daily video and select 5 words which I commonly speak and find alternatives
 5 * 5 = 25 daily words
 25 * 30 = 1150 New words in month
 ```
+
+<h1 style='text-align: center; color: red; font-size: 30px'>Fresh Graduate Interview Questions</h1>
+
+1. OOP
+2. DSA
+3. Database Concepts
+4. Problem Solving
+5. Analytical
