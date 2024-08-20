@@ -273,7 +273,12 @@ Types of transmissions:
     Fiber optical cable:
     Coaxial cable:
 
-2- Wireless media (Radio Frequency):
+2- Wireless media (Radio Frequency): 
+
+please check the video 2:30 for practical
+
+
+Twisted pair cable: are cable which use a single connector as
 
 
 
