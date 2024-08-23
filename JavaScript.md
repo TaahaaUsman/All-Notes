@@ -386,7 +386,7 @@ Basically iife 2 kamon ka liya use hota ha
 **Syntax** 
 
 ```
-let func = (function(){
+(function(){
     let a = 32;
     let b = "Taahaa";
         return{
@@ -399,7 +399,7 @@ let func = (function(){
                 b = name;
             }
         }
-})
+})();
 ```
 
 <h2 style='color: aquamarine;'>Prototype</h2>

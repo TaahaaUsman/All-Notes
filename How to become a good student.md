@@ -74,7 +74,7 @@ Mostly when we try to learn something we make progress at the start but after a 
 We have to convert our breakfast into 2 meal, minner and major meal.
 - Firstly after Getting up from bed, take minner meal, **almond, Akrot(rat ko akrot bago dana sa on ki garmi kam ho jati ha), banana or apple**
 - Secondly after taking study shift, take major meal, take **Yogut, and paratha(paratha will not be fried)**
-- Do not overeat or undereat, maintain a ballan learn self control, and follow the signals of body, and eat nessossary need of meal.
+- Do not overeat or undereat, maintain a balance learn self control, and follow the signals of body, and eat nessassary need of meal.
 
 <h1 style='text-align: center; color: red; font-size: 30px'>How to avoid Short Term pleasures Activities</h1>
 
@@ -225,3 +225,26 @@ Make daily video and select 5 words which I commonly speak and find alternatives
 3. Database Concepts
 4. Problem Solving
 5. Analytical
+
+
+<h1 style='text-align: center; color: red; font-size: 30px'>Articulation Improvement</h1>
+
+1. Expending their Surface lexicon(It means we have to collect the maximum words and make habbit to pronounce that words)
+2. Give more time to index your deep lexicon
+3. Pruning your filler words(Do not use Filler words, It increase lenght of speaking Silence ineasted of speaking)
+    - Process the endings of the words
+    - Keep your mouth closed untill you ready to speak
+4. Tune your vocal instrument
+
+<h1 style='text-align: center; color: red; font-size: 30px'>Things which should in alarm for a Day</h1>
+
+1. Meditation or Attention training. 15 minates
+2. Cheeks exercise. 15 minates
+3. Memory exercise. 30 minates
+4. Verbal Communication voice test for 15 minates.
+5. Non verbal communication video test 30 minates.
+6. Reading without moving toungh 30 minates.
+7. 1 hour practice of inner talk.
+8. 15 minates of improving vocabulary.
+
+

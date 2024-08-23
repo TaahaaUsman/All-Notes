@@ -1,0 +1,1 @@
+While studying I think about how types of people are and how to comunication with each one of the type.

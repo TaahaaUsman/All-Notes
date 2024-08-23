@@ -233,6 +233,13 @@ Some common Pronouns list:
 
 
 
+<h2 style='color:green; font-size: 30px;' id='Verb'>Punctuation in English</h2>
+
+Symbols which discribe our emotions and feeling are called Punctuation. For Instance, `.` `,` `!` `?` etc. 
+
+
+
+
 
 
 
