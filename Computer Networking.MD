@@ -352,6 +352,7 @@ It is one way communication and in this devices only can send data.Keyborad, mou
 
 <h2 style='color: aqua; font-weight:600'>Types of transmissions:</h2>
 
+<<<<<<< HEAD
 <h4 style='color:aquamarine; font-weight:700'>wired media (Ways, electromagnetic signals)</h4>
 
 1. Shilded twisted pair cable:
@@ -363,6 +364,14 @@ cable has a fine wire mesh surrounding the wired to protect the transmission.
 4. Coaxial cable:
 
 <h4 style='color:aquamarine; font-weight:700'>Wireless media (Radio Frequency)</h4>
+=======
+2- Wireless media (Radio Frequency): 
+
+please check the video 2:30 for practical
+
+
+Twisted pair cable: are cable which use a single connector as
+>>>>>>> 87ac361eab163222418b138a1452c3c863ec0fbb
 
 
 
