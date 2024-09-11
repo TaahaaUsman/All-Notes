@@ -6,6 +6,10 @@
 2. Master CSS
 3. Master JavaScript
 4. Master React JS
+    - Revise GSAP 
+    - Create Iphone 15 web clone
+    - Create Brainwave website
+    - Learn Three JS
 
 <h2 style='color: tomato;'>Working Task 2</h2>
 

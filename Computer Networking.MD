@@ -1,5 +1,7 @@
 <h1 align='center' style='color: red; font-weight:800;'>COMPUTER NETWORKING CONCEPTS</h1>
 
+<img src='./Networking%20Photos/types-of-computer-network.webp' style='width:40%; height: 5%;' />
+
 <h2 style='color: aqua; font-weight:600'>LAN</h2>
     This is establish in a local area like a single building etc.
 <h2 style='color: aqua; font-weight:600'>MAN</h2>
@@ -12,6 +14,9 @@
     Campus area network like a network of a univeristy campus. Mostly this connect is private, virtual university campus etc.
 
 <h1 align='center' style='color: red; font-weight:800;'>NETWORKING TERMINOLOGY</h1>
+
+<img src='./Networking%20Photos/Types-of-network-devices.png' style='width:40%; height: 5%;' />
+
 
 <h2 style='color: aqua; font-weight:600'><h2 style='color: aqua; font-weight:600'>Node:</h2>
     Every device which is connected in the network is called node.
@@ -188,6 +193,9 @@ Topology is an arrangement of networking devices in a network.
 
 <h2 style='color: aqua; font-weight:600'>Bus Topology:</h2>
 
+<img src='./Networking%20Photos/bus-topology.png' style='width:40%; height: 5%;' />
+
+
 In bus topology every device is connected through a main back bone cable called bus.And number of devices connected with the main cable.
 
 **Advantages:**
@@ -201,6 +209,9 @@ In bus topology every device is connected through a main back bone cable called 
 2. Difficluty in fault detection.
 
 <h2 style='color: aqua; font-weight:600'>Star Topology:</h2>
+
+<img src='./Networking%20Photos/star-topology.png' style='width:40%; height: 5%;' />
+
 
 In star topology all devices are connected with a central hub or switch. If some device want to send data so, it have to send data to the hub or switch. And central device trasnmitte the data to destination.
 
@@ -218,6 +229,9 @@ In star topology all devices are connected with a central hub or switch. If some
 
 <h2 style='color: aqua; font-weight:600'>Ring Topology:</h2>
 
+<img src='./Networking%20Photos/ring-topology.png' style='width:40%; height: 5%;' />
+
+
 In this topology two devices connected with either sides of node. It forms like a ring that's why we call it Ring topology. In this if a node want to sent data to the other node, Node have to send data to the next node in clock wise direction. And the reciveing node work as a repeater and it intend the sigals and forward the packet.
 
 **Advantages:**
@@ -233,6 +247,9 @@ In this topology two devices connected with either sides of node. It forms like 
 
 <h2 style='color: aqua; font-weight:600'>Dual Ring Topology:</h2>
 
+<img src='./Networking%20Photos/dual-ring.jpg' style='width:40%; height: 5%;' />
+
+
 This is just like ring topology but the diffirence is only that in dual ring signal can be send as clock wise or anti clock wise.
 
 **Disdvantages:**
@@ -240,6 +257,9 @@ This is just like ring topology but the diffirence is only that in dual ring sig
 1. Number of port and cable is required more.
 
 <h2 style='color: aqua; font-weight:600'>Mesh Topolgy:</h2>
+
+<img src='./Networking%20Photos/mesh-topology.png' style='width:40%; height: 5%;' />
+
 
 In Mesh topology, every single node is connected with a dedicated path to every other node in the network. We can say that the connection only carrier the data between two devices only.
 
@@ -256,6 +276,7 @@ In Mesh topology, every single node is connected with a dedicated path to every 
 3. Scalability issue because a device can'not connedted with large number of devices.
 
 <h2 style='color: aqua; font-weight:600'>Tree Topology:</h2>
+
 Tree topology is mixture of star and bus topology. In this topology multiple star topology are connected with main cable.
 
 **Disadvantages:**
@@ -278,6 +299,9 @@ Hybrid topology is a combination of two or more topologies with each others is c
 4. Maintenance is high expensive.
 
 <h1 align='center' style='color: red; font-weight:800;'>OSI MODEL</h1>
+
+<img src='./Networking%20Photos/osi-model.jpg' style='width:40%; height: 5%;' />
+
 
 OSI stand for `Open system interconnection` which is used to know the flow to data from point a to b point. And OSI model created by ISO(International Organization of standardzition) in 1984. And now it is considered as an artitectural design for inter-computer communications.
 
@@ -334,6 +358,9 @@ There are four layer in TCP/IP protocol:
 4. Link layer
 
 
+<img src='./Networking%20Photos/osi-second.png' style='width:40%; height: 5%;' />
+
+
 <h1 align='center' style='color: red; font-weight:800;'>Transmission mode and transmition media</h1>
 
 Transmission is a process in which user can send data or information to the network using network devices is known as transmission.It is a process of sharing information between devices.
@@ -352,7 +379,6 @@ It is one way communication and in this devices only can send data.Keyborad, mou
 
 <h2 style='color: aqua; font-weight:600'>Types of transmissions:</h2>
 
-<<<<<<< HEAD
 <h4 style='color:aquamarine; font-weight:700'>wired media (Ways, electromagnetic signals)</h4>
 
 1. Shilded twisted pair cable:
@@ -371,7 +397,7 @@ please check the video 2:30 for practical
 
 
 Twisted pair cable: are cable which use a single connector as
->>>>>>> 87ac361eab163222418b138a1452c3c863ec0fbb
+
 
 
 
