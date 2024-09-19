@@ -144,10 +144,10 @@ pull command is used to fetch and download content from a remote repo into local
 git pull origin main
 ```
 
-##Resolving Merge Coflicts
+## Resolving Merge Coflicts
 
 SomeTimes we made changes in two different branches and both changes make conflit because the change the same part of code. In this situation git will not be able to resovle this conflit. So, we have to resolve it by manually.
-
+<br />
 Simplly we have to use the tecnique of merging two different branches. When we try to merge two branches VS code will atomatically detect the conflit and give options to resolve it. Simplely follow the guide of VS code.
 
 <Undoing Changes>
