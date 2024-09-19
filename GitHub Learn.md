@@ -150,13 +150,22 @@ SomeTimes we made changes in two different branches and both changes make confli
 <br />
 Simplly we have to use the tecnique of merging two different branches. When we try to merge two branches VS code will atomatically detect the conflit and give options to resolve it. Simplely follow the guide of VS code.
 
-<Undoing Changes>
+## Undoing Changes
 Sometimes we made some changes in the code which we don not have to. In this case we use some undoing commands to undo the doned operations.
+<br />
+**case 1 :** staged changes _maybe we add some change which we do not want to so we use following commands_
 
-case 1: staged changes (maybe we add some change which we do not want to so we use following commands)
-    git reset file_name <will reset single file>
-    git reset <will reset all files in the repository>
-case 2: commited changes (for one commit)
+```
+    git reset file_name
+ // will reset single file
+```
+
+```
+   git reset 
+// will reset all files in the repository
+```
+
+**case 2: commited changes (for one commit)
     git reset HEAD~1
     HEAD~1 <means HEAD represent as the current pointer of changes, and it works like a queue. And we are saying in this command is that go back to 1 setp or HEAD>
 case 3: commited changes (for many commits)
