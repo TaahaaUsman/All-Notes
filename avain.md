@@ -10,6 +10,8 @@
   - Point 3
 
 </details>
+
+
 ## <span style="color: blue;">This is a blue heading</span>
 
 This is some regular Markdown text.
