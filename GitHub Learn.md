@@ -165,20 +165,41 @@ Sometimes we made some changes in the code which we don not have to. In this cas
 // will reset all files in the repository
 ```
 
-**case 2: commited changes (for one commit)
-    git reset HEAD~1
-    HEAD~1 <means HEAD represent as the current pointer of changes, and it works like a queue. And we are saying in this command is that go back to 1 setp or HEAD>
-case 3: commited changes (for many commits)
+**case 2 :** commited changes (for one commit)
+
+```
+git reset HEAD~1
+```
+
+    HEAD~1 _means HEAD represent as the current pointer of changes, and it works like a queue. And we are saying in this command is that go back to 1 setp or HEAD_
+
+**case 3 :** commited changes _for many commits_
+
 if we want to go mulple setps back so we use case 3 and following commads
-    git reset Hash_value_of_commit <In this commad we copy the hash value of commit where we want to go and run the command>
-    git reset --hard Hash_value_of_commit <using this commad these commits which are comes after the hash value will be removed form list>
 
-git log <by using this command we check all changes and commits history>
+```
+git reset Hash_value_of_commit 
+// In this commad we copy the hash value of commit where we want to go and run the command
+```
 
-<Fork command>
+```
+git reset --hard Hash_value_of_commit
+// Using this commad these commits which are comes after the hash value will be removed form list
+```
+
+```
+git log
+// by using this command we check all changes and commits history
+```
+
+
+## Fork command
+
 is used to copy other projects into a new repository. For example, some user make there React project code. So, we can use Fork for copying all that code into our own copyed repository.
+
 Steps:
-1- Search a repository into github
-2- click on the option of Fork
-3- Add name of Fork folder
-4- After somethime the fork folder will be created
+
+1. Search a repository into github
+2. click on the option of Fork
+3. Add name of Fork folder
+4. After somethime the fork folder will be created
