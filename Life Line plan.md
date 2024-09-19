@@ -1,8 +1,8 @@
 <h1 style="text-align: center; color: red;">My Whole plan</h1>
 
 <details>
-<summary>Check</summary>
-<h2 style='color: tomato;'>Working List 1</h2>
+<summary>
+<h2 style='color: tomato;'>Working List 1</h2></summary>
 
 1. Master HTML
 2. Master CSS
