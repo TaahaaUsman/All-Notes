@@ -1,14 +1,14 @@
 In Github we called changes as 'commit 
 
-What is add in git?
+<h2>What is add in git?</h2>
 add means that we made all needed change in the code.
 
-what is commit in git?
+<h2>what is commit in git?</h2>
 commit means the addition of code is ready to change the code. And when we commit in repository it means the changes what we made is saved.Git save commits is the form of history.
 
 How to make changes in git repository?
 
-Configuring Git?
+<h2>Configuring Git?</h2>
 Configuration means we have to link Git software to our Github.
 We can configure a project as 'Global' or 'Local'. 
 
