@@ -1,11 +1,9 @@
 <h1 style="text-align: center; color: red;">My Whole plan</h1>
 
 <details>
-<summary>
+<summary>W	orking list 1</summary>
 
 ## Working List 1
-
-</summary>
 
 1. Master HTML
 2. Master CSS
@@ -20,9 +18,8 @@
 
 <details>
 
-<summary>
+<summary>Working list 2</summary>
 <h2 style='color: tomato;'>Working Task 2</h2>
-</summary>
 
 1. Master Next JS
 2. Master Phyton Basics
@@ -32,9 +29,8 @@
 
 <details>
 
-<summary>
+<summary>Working list 3</summary>
 <h2 style='color: tomato;'>Working Task 3</h2>
-</summary>
 
 1. Masterrr Data Structure and Algorithms
 2. Practice every data type from leetcode
