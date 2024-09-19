@@ -9,26 +9,30 @@ commit means the addition of code is ready to change the code. And when we commi
 How to make changes in git repository?
 
 <h2>Configuring Git?</h2>
-Configuration means we have to link Git software to our Github.
-We can configure a project as 'Global' or 'Local'. 
+Configuration means we have to link Git software to our Github.<br />
+We can configure a project as `Global` or `Local`. 
 
-How to configure Code into git?
+<h2>How to configure Code into git?</h2>
 
 git config --global user.name "TaahaaUsman"
 git config --global user.email "taha.usman.ccl@gmail.com"
 git config --list : to show all congigured data
 
-remote & local commands:
-remote means GitHub website
+<h2>remote & local commands:</h2>
+remote means GitHub website<br />
 Local means the local machine of user.
 
-<h3>Clone and Status</h3>
+<h2>Clone and Status</h2>
 clone command is used to clone the folder into code editor 
+```
 git clone https://github.com/TaahaaUsman/Learn-Github.git
+```
 
-Status command is used to check the current status of folder. If we change the cloned folder wo 'git status' will show that the folder or files is modified. And we have to commit the changes.
-code:
+**Status** command is used to check the current status of folder. If we change the cloned folder wo 'git status' will show that the folder or files is modified. And we have to commit the changes.
+
+```
 git status
+```
 There are four types of status:
 <br>untracked:
 new files that git doesn't yet track 
