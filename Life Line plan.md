@@ -2,7 +2,10 @@
 
 <details>
 <summary>
-<h2 style='color: tomato;'>Working List 1</h2></summary>
+
+<h2 style='color: tomato;'>Working List 1</h2>
+
+</summary>
 
 1. Master HTML
 2. Master CSS
