@@ -22,3 +22,8 @@ After that:
 2. Call to Aamir and ask him to collect samples
 3. Call to Ahtesham and ask him to collect samples
 4. Contect with the persons who I know and ask them to collect samples and provide
+
+
+Next Step:
+
+1. Go to pandowall visit community person and with him visit school and opd area

@@ -51,3 +51,4 @@
 2. Communications Skills
 3. Atier
 4. Master English (Speaking, Reading, Writing, Lisening)
+5. Exercise (Body, Mind, Face)
